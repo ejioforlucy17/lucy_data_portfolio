@@ -26,7 +26,6 @@ body {
     line-height: 1.7;
 }
 
-
 /* NAVIGATION */
 
 .navbar {
@@ -74,7 +73,6 @@ nav a:hover {
     color: #d66f98;
 }
 
-
 /* HOME SECTION */
 
 .hero {
@@ -120,7 +118,6 @@ nav a:hover {
     margin-bottom: 25px;
 }
 
-
 /* BUTTONS AND LINKS */
 
 .button {
@@ -151,7 +148,6 @@ nav a:hover {
 .text-link:hover {
     color: #914362;
 }
-
 
 /* GLASS EFFECT */
 
@@ -204,7 +200,6 @@ nav a:hover {
     font-weight: bold;
 }
 
-
 /* GENERAL SECTIONS */
 
 .section {
@@ -241,7 +236,6 @@ nav a:hover {
     margin: 25px 0;
 }
 
-
 /* SKILLS AND PROJECT GRID */
 
 .grid {
@@ -273,7 +267,6 @@ nav a:hover {
     font-size: 14px;
 }
 
-
 /* PROJECT DETAILS */
 
 .project-number {
@@ -288,7 +281,6 @@ nav a:hover {
     display: inline-block;
     margin-top: 18px;
 }
-
 
 /* EXPERIENCE */
 
@@ -319,7 +311,6 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
-
 /* CONTACT SECTION */
 
 .contact-intro {
@@ -329,15 +320,15 @@ nav a:hover {
 .contact-links {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
+    gap: 12px;
     margin-top: 25px;
 }
 
 .contact-item {
     display: flex;
     align-items: center;
-    gap: 15px;
-    padding: 16px;
+    gap: 10px;
+    padding: 13px;
     background: rgba(255,240,245,0.65);
     border: 1px solid rgba(233,154,181,0.25);
     border-radius: 16px;
@@ -354,11 +345,18 @@ nav a:hover {
     box-shadow: 0 10px 25px rgba(190,130,155,0.16);
 }
 
+/* SMALL CONTACT ICONS */
+
 .contact-item svg {
-    width: 19px;
-    height: 19px;
-    flex-shrink: 0;
-    fill: none;
+    display: block !important;
+    width: 14px !important;
+    height: 14px !important;
+    min-width: 14px !important;
+    max-width: 14px !important;
+    min-height: 14px !important;
+    max-height: 14px !important;
+    flex: 0 0 14px !important;
+    fill: none !important;
     stroke: #bd6386;
     stroke-width: 1.8;
     stroke-linecap: round;
@@ -373,15 +371,14 @@ nav a:hover {
 
 .contact-item strong {
     color: #bd6386;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .contact-item small {
     color: var(--muted);
-    font-size: 12px;
+    font-size: 11px;
     overflow-wrap: anywhere;
 }
-
 
 /* FOOTER */
 
@@ -392,7 +389,6 @@ footer {
     color: var(--muted);
     font-size: 13px;
 }
-
 
 /* SUBTLE ANIMATIONS */
 
@@ -427,7 +423,6 @@ footer {
         transform: translateY(-8px);
     }
 }
-
 
 /* MOBILE RESPONSIVENESS */
 
@@ -480,7 +475,6 @@ footer {
         grid-template-columns: 1fr;
     }
 }
-
 
 /* ACCESSIBILITY */
 
